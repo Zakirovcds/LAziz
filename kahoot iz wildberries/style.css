@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+ vertical-align: lightgray;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.question {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.skip {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: block;
+    margin-left: auto;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background-repeat: 50%;
+    
+}
+.main {
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+margin-bottom: 20px;
+}
+.answers {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    padding: 100px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 42px 0px rgba(173,138,138,0.75);
+-webkit-box-shadow: 10px 10px 42px 0px rgba(173,138,138,0.75);
+-moz-box-shadow: 10px 10px 42px 0px rgba(173,138,138,0.75);
+    transition: all 2s;
+
+}
+b{
+    font-size: 50px;
+    text-align: center;
+}
+.btn2{
+    background-color: red;
+}
+.btn:hover{
+    opacity: 0.7;
+    
+}
+.loser{
+   text-align: center;
+   display: block;
+}
+.nasayt{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 50PX;
+}
+
