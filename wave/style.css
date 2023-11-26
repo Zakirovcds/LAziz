@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    gap: 30px;
+
+
+
+    
+}
+.link{
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+justify-content: space-between;
+}
+.link:hover{
+    border-bottom: 1px solid white;
+}
+.wawe{
+    background-image: url(./wawe-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.title{
+    text-align: center;
+    margin: 200px auto;
+}
+.title h3{
+    color: black;
+}
+@media (max-width:700px) {
+    
+}
+
+
+@media (max-width:700px) {
+   nav{
+    flex-wrap: wrap;
+   } 
+}
